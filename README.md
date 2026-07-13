@@ -1,119 +1,110 @@
-🚨 National Disaster Evacuation System
+# 🚨 National Disaster Evacuation System
 
-A professional desktop application developed in C++ using SFML that simulates disaster evacuation across Pakistan. The system utilizes advanced Graph Algorithms to calculate optimal evacuation routes while providing an interactive visual experience for emergency response planning.
+A professional desktop application developed in **C++** using **SFML** that simulates disaster evacuation across Pakistan by applying graph algorithms to identify optimal evacuation routes.
 
-📌 Overview
+---
 
-The National Disaster Evacuation System is designed to assist in disaster management by identifying the safest evacuation routes during emergencies such as floods, earthquakes, fires, and cyclones. The application visualizes Pakistan's cities, emergency shelters, and transportation network in an interactive 2D environment.
+## 📖 About the Project
 
-This project demonstrates the practical implementation of Data Structures and Algorithms (DSA), Object-Oriented Programming (OOP), and Graph Theory in solving real-world problems.
+The **National Disaster Evacuation System** is designed to assist in emergency evacuation planning by finding the safest and shortest routes during natural disasters. The application combines **Graph Theory**, **Data Structures**, and **Object-Oriented Programming** with an interactive 2D graphical interface to provide a realistic disaster management simulation.
 
-✨ Features
-🗺️ Interactive 2D visualization using SFML
-🇵🇰 Pakistan map containing 220+ cities
-🏥 100+ emergency shelters
-🚧 Disaster simulation
-Flood
-Earthquake
-Fire
-Cyclone
-📍 Automatic nearest shelter detection
-🛣️ Smart evacuation route planning
-🔍 Intelligent city search and suggestions
-🎙️ Voice guidance system
-🔎 Zoom & Pan functionality
-🖱️ Interactive hover information
-🎨 Professional UI with animations
-📊 Graph-based route visualization
-🧠 Algorithms Implemented
-Breadth-First Search (BFS)
-Depth-First Search (DFS)
-Dijkstra's Shortest Path Algorithm
-🛠️ Technologies Used
-Technology	Purpose
-C++	Core Programming Language
-SFML	Graphics & User Interface
-Graph Theory	Route Modeling
-Data Structures	Graph Representation
-Object-Oriented Programming	Software Design
-📷 Project Preview
+---
 
-Add screenshots of your application here.
+## ✨ Features
 
-Example:
+* 🇵🇰 Interactive map featuring **220+ cities** across Pakistan
+* 🏥 More than **100 emergency shelters**
+* 🗺️ Interactive 2D graphical interface using SFML
+* 🌊 Disaster simulation:
 
-screenshots/
-├── Home.png
-├── Route.png
-├── Disaster.png
-├── Result.png
+  * Flood
+  * Earthquake
+  * Fire
+  * Cyclone
+* 📍 Automatic nearest shelter selection
+* 🛣️ Intelligent evacuation route planning
+* 🧭 Smart city search with suggestions
+* 🎙️ Voice guidance system
+* 🔍 Zoom and Pan functionality
+* 🖱️ Interactive city and shelter information
+* 🎨 Modern graphical interface with animated route visualization
 
-After uploading the images, display them like this:
+---
 
-## 📷 Screenshots
+## 🧠 Algorithms Implemented
 
-![Home Screen](screenshots/Home.png)
+* Breadth-First Search (BFS)
+* Depth-First Search (DFS)
+* Dijkstra's Shortest Path Algorithm
 
-![Route Visualization](screenshots/Route.png)
+---
 
-![Disaster Simulation](screenshots/Disaster.png)
+## 🛠️ Technologies Used
 
-![Final Result](screenshots/Result.png)
-🚀 Getting Started
-Prerequisites
-C++ Compiler (GCC/MSVC)
-SFML Library
-Visual Studio or Visual Studio Code
-Installation
-Clone this repository.
+* C++
+* SFML
+* Graph Theory
+* Data Structures
+* Object-Oriented Programming (OOP)
+
+---
+
+## 🚀 Getting Started
+
+### Requirements
+
+* C++ Compiler (GCC/MSVC)
+* SFML Library
+* Visual Studio or Visual Studio Code
+
+### Installation
+
+1. Clone this repository.
+
+```bash
 git clone https://github.com/YourUsername/National-Disaster-Evacuation-System.git
-Open the project in your preferred IDE.
-Configure the SFML include and library directories.
-Build the project.
-Run the executable.
-📂 Project Structure
-National-Disaster-Evacuation-System
-│
-├── project.cpp
-├── README.md
-├── LICENSE
-├── .gitignore
-├── screenshots/
-└── SFML/ (Optional)
-🔮 Future Enhancements
-⭐ A* Search Algorithm
-🌦️ Live Weather Integration
-🛰️ GPS-Based Navigation
-🗺️ GIS Map Integration
-🗄️ Database Connectivity
-📱 Mobile Companion Application
-👥 Multi-User Rescue Coordination
-☁️ Cloud-Based Disaster Monitoring
-🎯 Learning Outcomes
+```
 
-This project demonstrates practical knowledge of:
+2. Open the project in your preferred IDE.
 
-Graph Algorithms
-Shortest Path Computation
-Data Structures
-Object-Oriented Programming
-Interactive GUI Development
-Disaster Management Simulation
-Software Engineering Principles
-👨‍💻 Author
+3. Configure the SFML include and library paths.
 
-Muhammad Farhan Khalid
+4. Build and run the application.
 
-BS Computer Science
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates practical implementation of:
+
+* Graph Algorithms
+* Pathfinding Techniques
+* Data Structures
+* Object-Oriented Programming
+* Interactive GUI Development
+* Disaster Management Simulation
+
+---
+
+## 🔮 Future Enhancements
+
+* A* Search Algorithm
+* Live Weather Integration
+* GPS Navigation
+* GIS Map Integration
+* Database Connectivity
+* Cloud-Based Disaster Monitoring
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Farhan Khalid**
+
+Bachelor of Science in Computer Science
+
 University of Narowal
 
-📄 License
+---
 
-This project is licensed under the MIT License.
-
-⭐ Support
-
-If you found this project helpful, consider giving it a ⭐ Star on GitHub.
-
-
-
+⭐ If you find this project useful or interesting, consider giving it a **Star** on GitHub.
